@@ -6,7 +6,7 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 const ComputersCanvas = () => {
   const computer = useGLTF("./desktop_pc/scene.gltf");
   const [isMobile, setIsMobile] = useState(false);
-  const [scrollPosition, setScrollPosition] = useState(0);
+  const [scrollPosition, setScrollPosition] = useState(2.5);
   const [rotation, setRotation] = useState([0, 0, 0]);
   // const [initPoRo, setInitPoRp] = useState([0, 0]);
 
